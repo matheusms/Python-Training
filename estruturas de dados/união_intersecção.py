@@ -1,0 +1,11 @@
+setx = set(["apple", "mango"])
+sety = set(["mango", "orange"])
+setz = set(["mango"])
+
+print("União dos 3 conjuntos: ", setx|sety|setz)
+print("interseção setx e sety: ", setx&sety)
+y=sety.issubset(setx)
+z=setz.issubset(setx)
+print("Setx é subconjunto de sety? ",y)
+print("Setx é subconjunto de setz? ",z)
+print("Os elementos de setx que não existem em sety são: ",setx-sety)
