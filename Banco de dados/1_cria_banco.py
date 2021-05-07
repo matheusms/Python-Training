@@ -2,7 +2,8 @@
 import sqlite3
 #INSTALAR SQLITE3
 
-#banco = sqlite3.connect(':memory:')
+
+banco = sqlite3.connect(':memory:')
 banco = sqlite3.connect('TESTE.db')#CRIA O BANCO DE DADOS "TESTE"
 
 cursor = banco.cursor()#CURSOR É UM IDENTIFICADOR DE ARQUIVOS, PARECIDO COM CHAMAR OPEN()
@@ -16,3 +17,4 @@ banco.commit()
 
 cursor.execute("SELECT * FROM estudantes")#CONSULTA DADOS NA TABELA 'ESTUDANTES'
 print(cursor.fetchall())#RETORNA AS TABELAS DE DADOS
+

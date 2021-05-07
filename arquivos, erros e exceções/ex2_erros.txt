@@ -1,0 +1,3 @@
+Erro de sintaxe: são erros identificados pelo interpretador, tais como pontuação errada e o interpretador não compreeende determinado comando.
+Erro de tempo de execução: ocorre quando algo interrompe a execução de um programa.
+Erro semântico: quando o interpretador reconhece alguma violação de regra da linguagem.
