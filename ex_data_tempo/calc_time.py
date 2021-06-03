@@ -8,9 +8,6 @@ def delayTime():
         time.sleep(3)
         print("Olá mundo")
     
-    
-
-
 
 start_time = time.time()#tempo inicial de execução atraves do time.time()
 start_counter = perf_counter()#tempo inicial de execução atraves do perf_counter()
