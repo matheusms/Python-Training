@@ -4,7 +4,7 @@ import time
 def segundos_inicio():
     seconds = time.time()
 
-    print(("Segundos desde a época: ", seconds))
+    print("Segundos desde a época: ", seconds)
 
     #imprime no tempo atual
     local_time = time.ctime(seconds)

@@ -24,5 +24,6 @@ def now_day():
     print("Ano: ", y.year)
     print("Mês: ", y.month)
     print("Dia: ", y.day)
+    
 
 now_day()

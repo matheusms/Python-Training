@@ -46,4 +46,6 @@ def convert_string(): #convertendo string no formato data e tempo
     diff = z - y
     print(diff)
 
+convert_string()
+
 
